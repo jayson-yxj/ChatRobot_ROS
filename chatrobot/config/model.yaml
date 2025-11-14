@@ -1,0 +1,13 @@
+ollama:
+  model: llama3.1:8b
+  temperature: 0.8
+
+# 可用的模型列表
+# - llama3.1:8b
+# - llama3:8b-instruct-q4_0
+# - vicuna:7b
+# - qwen2:7b
+
+# 若无本地模型，可使用:
+# ollama pull <model_name> 
+# 命令下载模型

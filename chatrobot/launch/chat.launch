@@ -1,0 +1,7 @@
+<launch>
+
+    <node  pkg="chatrobot" type="chatrobot_node.py"  name="chatrobot_node" output="screen">
+        <rosparam file="$(find chatrobot)/config/model.yaml" command="load" />
+    </node>
+
+</launch>
