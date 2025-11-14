@@ -22,3 +22,7 @@ git clone https://github.com/jayson-yxj/ChatRobot_ROS.git
 cd chatrobot/scripts
 ./install_deps.sh
 ```
+3.  **运行示例程序脚本**:
+```
+./example.sh
+```
